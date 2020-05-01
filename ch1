@@ -1,0 +1,42 @@
+#1.1
+All computers can perform the same functions. The more powerful ones simply can do it faster.
+
+#1.2
+No, higher level languages simply allow humans to write programs more quickly and easily, but they perform the same functions and infact are translated into lower level languages to be run.
+
+#1.3
+With analog machines it is very difficult to increase accuracy, where as with digital machines it is very easy to.
+
+#1.4
+Ambiguity
+
+#1.5
+	a. Input a and x into a multiplication box, then take the output of that and put it along with b into an addition box.
+	b. input w, x, y, z into an addition box, take the output of that box and the value 0.25 and put them into a multiplication box.
+	c. input a and b into an addition box, then take the output of that and input it into a multiplication box twice.
+
+#1.6
+
+
+#1.7
+When there are several airports close by and it is not clear which one you want to go to. When you don't speak the same language as the taxi driver.
+
+#1.8
+John was using a telescope while at the park and saw a man through it.
+John was using a telescope somewhere and saw a man at the park through it.
+John was at the park and saw a man who had a telescope.
+Ambiguity.
+
+#1.9
+You can describe an algorithm with natural language, but there is often the pitfall of the ambiguity of natural language. Computer languages are made specifically for specifying instructions to a computer. They are made to avoid ambiguity and are written in terms that the computer can utilize.
+
+#1.10 & 1.11
+definiteness - The instructions must only have one way of going about doing them and must be something particular. You can't say add some of these numbers together.
+effective computability - The computation of the problem has to actually have meaning. You can't ask it to find the biggest number or how many zeros there are in nothing.
+finiteness - The calculation that the computer performs must actually terminate, ie you can't ask it to calculate 22/7, as it will never return a value as it is always still calculating(until it runs out of memory anyways).
+
+#1.12
+	a. No, it lacks definiteness.
+	b. No, this procedure does not posses finiteness as there are infinitely many prime and natural numbers.
+	c. Yes.
+	d. Yes. 
