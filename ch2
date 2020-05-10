@@ -33,4 +33,16 @@ number | 1's complement | signed magnitude | 2's complement
 	b. -128 or 10000000
 	c. (2^n)/2 - 1
 	d. (2^n)/2
-2.9 
+
+2.9 	Because we know that it that (2^n)/2 - 1 is the largest positive number we can express in 2's complement, we can use this to figure out the number of bits. x = (2^n)/2 - 1, 2(x +1) = 2^n, log2(2(x+1)) = n. Then we can substitue and use the change of base equation to solve: log10(2(6.02 x 10^23) +2)/log10(2) = 79.994. We know we have to round up because we can't use a fraction of a bit, so it takes 80 bits to represent avogadro's number in 2s complement.
+
+2.10	a. 1010, we know it it is negative so we take complement and add 1 to find the magnitutde: 0101 + 0001 = 0110. This is 0*8 + 1*4 + 1*2 + 0*1 = 6. So -6.
+	b. 01011010, Starts with a 0, so we know it is positive. 0*2^7 + 1*2^6 + 0*2^5 + 1*2^4 + 1*2^3 + 0*2^2 + 1*2^1 + 0*2^0 = 90.
+	c. 11111110. Starts with 1, so we know it is negative, find the magnitude: 00000001 + 00000001 = 00000010, which is 2. So -2.
+	d. 0011100111010011. first is 0, so positive.  1 + 2 + 16 + 64 + 128+ 256 + 2048 + 4096 + 8192 = 14803.
+
+2.11	a. 01100110
+	b. 01000000
+ 	c. 00100001
+	d. 10000000
+	e. 01111111
